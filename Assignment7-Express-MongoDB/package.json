@@ -1,0 +1,20 @@
+{
+  "name": "assignment6-express-mongodb",
+  "version": "1.0.0",
+  "description": "Assignment 6 - Express.js + MongoDB",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "cross-env NODE_ENV=DEV node --watch src/main.js",
+    "start:prod": "cross-env NODE_ENV=PROD node --watch src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cross-env": "^10.1.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^6.10.0"
+  }
+}
